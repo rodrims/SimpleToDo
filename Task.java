@@ -14,7 +14,6 @@ public class Task {
 
     public Task(String title) {
         this.title = title;
-        this.note = "hi";
     }
 
     public String getTitle() {
