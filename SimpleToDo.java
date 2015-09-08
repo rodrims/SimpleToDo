@@ -1,7 +1,18 @@
+/*
+ * Main class of the SimpleToDo program.
+ * @author Rodrigo Mejia
+ * @version 1
+ */
 public class SimpleToDo {
-    public static void main(String[] args) {
-        System.out.println("Hello Gabe");
-        System.out.println("Hello Omar and Rodrigo");
-        System.out.println("Hello Edgardo");
+    private String name = "New List";
+    private ArrayList tasks;
+
+    public SimpleToDo(String name) {
+        this.name = name;
+    }
+
+    public SimpleToDo(String name, Task[] tasks) {
+        this.name = name;
+        this.tasks = tasks;
     }
 }

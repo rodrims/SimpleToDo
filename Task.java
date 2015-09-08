@@ -4,8 +4,8 @@
  * @version 1
  */
 public class Task {
-    String title = "";
-    String note = "";
+    String title;
+    String note;
 
     public Task(String title, String note) {
         this.title = title;
