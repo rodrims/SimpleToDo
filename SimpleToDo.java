@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
  * Main class of the SimpleToDo program.
  * @author Rodrigo Mejia
@@ -32,5 +34,26 @@ public class SimpleToDo {
      */
     public SimpleToDo() {
         this("New List", null);
+    }
+
+    /*
+     * @return the simple to do list's name
+     */
+    public String getName() {
+        return this.name;
+    }
+
+    /*
+     * @return the simple to do list's tasks
+     */
+    public Task[] getTasks() {
+        return this.tasks;
+    }
+
+    /*
+     * @param name the simple to do list's new name
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 }
