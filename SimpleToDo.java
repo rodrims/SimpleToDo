@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class SimpleToDo {
     private String name;
-    private ArrayList tasks;
+    private ArrayList<Task> tasks;
 
     /*
      * Constructor for a simple to do list.
@@ -15,7 +15,7 @@ public class SimpleToDo {
      * @param name the list's name
      * @param tasks the list's tasks
      */
-    public SimpleToDo(String name, Task[] tasks) {
+    public SimpleToDo(String name, ArrayList<Task> tasks) {
         this.name = name;
         this.tasks = tasks;
     }
@@ -46,7 +46,7 @@ public class SimpleToDo {
     /*
      * @return the simple to do list's tasks
      */
-    public Task[] getTasks() {
+    public ArrayList<Task> getTasks() {
         return this.tasks;
     }
 
