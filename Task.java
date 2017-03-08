@@ -6,17 +6,17 @@
  */
 public class Task {
     String title;
-    String note;
+    String body;
 
     /*
      * Constructor for a task.
      *
      * @param title the task's title
-     * @param note the task's note
+     * @param body the task's body
      */
-    public Task(String title, String note) {
+    public Task(String title, String body) {
         this.title = title;
-        this.note = note;
+        this.body = body;
     }
 
     /*
@@ -36,10 +36,10 @@ public class Task {
     }
 
     /*
-     * @return the task's note
+     * @return the task's body
      */
     public String getNote() {
-        return this.note;
+        return this.body;
     }
 
     /*
@@ -50,9 +50,9 @@ public class Task {
     }
 
     /*
-     * @param note the task's note
+     * @param body the task's body
      */
-    public void setNote(String note) {
-        this.note = note;
+    public void setNote(String body) {
+        this.body = body;
     }
 }
